@@ -1,0 +1,8 @@
+Testplan
+
+To test these modules I will approach it with Implementation testing as I will be testing every part of the program during my implementation to ensure that it functions under any circumstances that I can think of.
+To ensure that my implementation can function well I will be testing it using valid data, extreme data and invalid data as it will provide me with the widest amount of circumstances possible, therefore ensuring that the
+code is as soundproof as it can possibly be. 
+
+Furthermore I will also be using regression testing to ensure that the code continues to work as I add more of the implementation to it, ensuring that I do not miss any odd scenarios that can occur due to a poor implementation
+of a later task. All of these tests will be written in a bash script, allowing me to easily add to the tests and easily run all tests again as I add functionality to the program.
