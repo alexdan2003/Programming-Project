@@ -1,0 +1,3 @@
+pgmEchoModule:	pgmEchoModule.c		fileHandling.h
+
+	gcc	-g -std=c99 -fmax-errors=1 -Wall -Werror -0 	pgmEchoModule 	pgmEchoModule.c

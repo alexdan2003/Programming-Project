@@ -1,0 +1,39 @@
+Module Plan
+
+pgmEcho.c Module
+
+The module contains a Main which reads in the input and output file that is needed, checking that they are both valid files.
+It contains a readFile which takes the input file and gathers all the information it needs from it, returning the information afterwards.
+It contains a writeFile which takes the output file and information from the input file, using this to write to the file copying it over.
+It contains errorHandling which is given error codes and outputs useful error messages.
+
+pgmComp.c Module
+
+The module contains a Main which reads in two pgm files, checking that they are both valid files.
+It contains a readFile which takes both the files and gathers all the information it needs from them, returning the information afterwards.
+It contains a compare which will take both of the files and compare that the information it gathered from them is logically identical, returning either true or false. 
+It contains errorHandling which is given error codes and outputs useful error messages.
+
+pgmReduce.c Module
+
+The module contains a Main which reads in an input file and an output file, checking that they are both valid files. It also reads in an integer.
+It contains reduce which will reduce the input value by the division of the integer, placing the reduced pgm in the output file.
+It contains errorHandling which is given error codes and outputs useful error messages.
+
+pgmTile.c Module
+
+The module contains a Main which reads in an input and output file, checking that they are both valid files. it also reads in an integer.
+It contains tile which will divide the input file into a smaller number of images depending on the given integer. Using the output file as a framework for this.
+It contains errorHandling which is given error codes and outputs useful error messages.
+
+pgmAssemble.c Module
+
+The module contains a Main which reads in an output file and two integers which layout the width an height of the output image. Furthermore depending on these values further inputs will be accepted that show the layout of the image.
+It contains assemble which will build the output image using the smaller images that it has, building up a picture within the output file. 
+It contains errorHandling which is given error codes and outputs useful error messages.
+
+*Currently the latter three pgms are rather basic as I will approach them in greater detail when I look at them, making the current module outline for them lacking in detail.
+ 
+
+
+
